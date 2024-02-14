@@ -1,4 +1,5 @@
-![image](https://github.com/angelodesenvolvedor/Calculadora-IMC/assets/98216100/3ee80863-b597-4520-b570-e9b38492b2e4)
+![image](https://github.com/angelodesenvolvedor/Calculadora-IMC/assets/98216100/89123b27-977f-45e2-b989-d63fc8f8a5eb)
+
 
 # Calculadora-IMC
  * Este projeto é uma Calculadora de Índice de Massa Corporal (IMC) que permite ao usuário calcular o seu IMC com base no seu peso e altura. O projeto é escrito em HTML, CSS e JavaScript.
