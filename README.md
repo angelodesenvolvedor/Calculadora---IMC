@@ -3,9 +3,9 @@
    
 # 🔥 Introdução
 
-* 1. Insira o seu peso (em kg) e a sua altura (em metros) nos campos correspondentes.
-* 2. Clique no botão "Calcular" para calcular o seu IMC.
-* 3. O resultado será exibido na tela, juntamente com uma descrição baseada no valor do IMC calculado.
+*  Insira o seu peso (em kg) e a sua altura (em metros) nos campos correspondentes.
+*  Clique no botão "Calcular" para calcular o seu IMC.
+*  O resultado será exibido na tela, juntamente com uma descrição baseada no valor do IMC calculado.
      
 # 📦 Tecnologias usadas:
 
