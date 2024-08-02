@@ -11,13 +11,13 @@
 <body>
     <main id="container">
         <section id="img">
-            <img src="./assets/images/ilustration.svg">
+            <img src="./assets/images/ilustration.svg" alt="Ilustração de cálculo de IMC">
         </section>
          
         <section id="calculator">
-            <form id="form">
+            <form id="form" aria-labelledby="title">
                 <h1 id="title">
-                    Calculadora - IMC
+                    Calculadora de IMC
                 </h1>   
 
                 <div class="input-box">
@@ -25,9 +25,9 @@
                         Peso em Kg
                     </label>
                     <div class="input-field">
-                        <i class="fa-solid fa-weight-hanging"></i>
-                        <input type="number" id="weight" required>
-                        <span>
+                        <i class="fa-solid fa-weight-hanging" aria-hidden="true"></i>
+                        <input type="number" id="weight" step="0.01" min="0" required aria-describedby="weight-description">
+                        <span id="weight-description">
                             Kg
                         </span>
                     </div>
@@ -38,15 +38,15 @@
                         Altura em metros
                     </label>
                     <div class="input-field">
-                        <i class="fa-solid fa-ruler"></i>
-                        <input type="number" step="0.01" id="height" name="altura" required>
-                        <span>
+                        <i class="fa-solid fa-ruler" aria-hidden="true"></i>
+                        <input type="number" step="0.01" id="height" required aria-describedby="height-description">
+                        <span id="height-description">
                             m
                         </span>
                     </div>
                 </div>
 
-                <button id="calculate">
+                <button type="submit" id="calculate">
                     Calcular
                 </button>
             </form>
@@ -60,16 +60,14 @@
                 </div>
 
                 <div id="more_info">
-                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm">
+                    <a href="https://mundoeducacao.uol.com.br/saude-bem-estar/imc.htm" target="_blank" rel="noopener noreferrer">
                         Mais informações sobre o IMC
-                        <i class="fa-solid fa-up-right-from-square"></i>
+                        <i class="fa-solid fa-up-right-from-square" aria-hidden="true"></i>
                     </a>
                 </div>
             </div>
-
         </section>
-
-        <script src="./assets/js/script.js"></script>
     </main>
+    <script src="./assets/js/script.js"></script>
 </body>
 </html>
